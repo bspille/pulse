@@ -1,6 +1,6 @@
 
 var express = require("express"),
-    router = express.router();
+    router = express.Router();
     // route to render the welcome page
     router.get("/", (req, res) => {
       res.render("index");
