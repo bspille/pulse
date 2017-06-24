@@ -1,46 +1,48 @@
 {
-  "name": "pulse",
-  "version": "1.0.0",
-  "description": "## file system - script for initial file structure",
-  "main": "server.js",
+  "name": "angular-tour-of-heroes",
+  "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "(cd test && node firstSeed)"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "buildprod": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bspille/pulse.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bspille/pulse/issues"
-  },
-  "homepage": "https://github.com/bspille/pulse#readme",
+  "private": true,
   "dependencies": {
-    "axios": "^0.16.2",
-    "bluebird": "^3.5.0",
-    "body-parser": "^1.17.2",
-    "cors": "^2.8.3",
-    "express": "^4.15.3",
-    "express-handlebars": "^3.0.0",
-    "geocoder": "^0.2.3",
-    "geolocation": "^0.2.0",
-    "google-auth-library": "^0.10.0",
-    "html5-geolocation": "^1.0.1",
-    "mongoose": "^4.10.6",
-    "path": "^0.12.7",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-router-dom": "^4.1.1",
-    "twilio": "^3.4.0"
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "@angular/forms": "^4.0.0",
+    "@angular/http": "^4.0.0",
+    "@angular/platform-browser": "^4.0.0",
+    "@angular/platform-browser-dynamic": "^4.0.0",
+    "@angular/router": "^4.0.0",
+    "angular-in-memory-web-api": "^0.3.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
   },
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.5.2",
-    "webpack": "^2.6.1"
+    "@angular/cli": "1.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@types/jasmine": "2.5.38",
+    "@types/node": "~6.0.60",
+    "codelyzer": "~2.0.0",
+    "jasmine-core": "~2.5.2",
+    "jasmine-spec-reporter": "~3.2.0",
+    "karma": "~1.4.1",
+    "karma-chrome-launcher": "~2.0.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^0.2.0",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.1.0",
+    "ts-node": "~2.0.0",
+    "tslint": "~4.5.0",
+    "typescript": "~2.2.0"
   }
 }
