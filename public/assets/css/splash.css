@@ -1,3 +1,26 @@
+/*Pulse logo*/
+
+#pulse-logo-big {
+    display: flex;
+    position: relative;
+    top: 50%;
+    align-content: center;
+    /*justify-content: center;
+    vertical-align: middle;*/
+    margin: auto;
+}
+
+.title-container {
+    z-index: 1000;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/*video*/
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;

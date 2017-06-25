@@ -65,7 +65,6 @@
 #sign-in-button {
     display: flex;
     position: relative;
-    top: 45rem;
     align-content: center;
     justify-content: center;
     width: 20rem;
